@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+	box-sizing: border-box;
+	font-family: "Dancing Script", cursive;
+}
+body {
+	margin: 0;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background: url("./sen-lee-EsP2miovnzs-unsplash.jpg");
+	padding: 60px;
+	background-size: cover;
+	color: #fff;
+}
+h1 {
+	text-align: center;
+	font-size: 100px;
+	letter-spacing: 10px;
+	font-family: "Dancing Script", cursive;
+}
+.countdown-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	margin: 0;
+	padding: 0;
+}
+.big-text {
+	font-size: 5rem;
+	font-weight: bolder;
+	margin: 0 2rem;
+}
+.count-el {
+	text-align: center;
+}
+span {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+}

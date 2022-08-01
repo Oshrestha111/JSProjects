@@ -1,0 +1,48 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+h1 {
+	font-size: 5rem;
+	color: rgba(221, 160, 221, 0.637);
+}
+.input {
+	padding: 1rem 1.05rem;
+	font-size: 1.25rem;
+	border: none;
+	border-right: 3px solid rgba(221, 160, 221, 0.637);
+	border-bottom: 3px solid rgba(221, 160, 221, 0.637);
+	outline: none;
+	color: #838383;
+	width: 91%;
+}
+.input::placeholder {
+	color: #bfbfbf;
+}
+.container {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding-bottom: 1.5rem;
+	width: 30%;
+}
+.lists {
+	padding: 0 1rem;
+	list-style: none;
+	font-size: 20px;
+	color: #838383;
+	cursor: pointer;
+}
+ul li.done {
+	text-decoration: line-through;
+}
+span {
+	color: rgb(161, 161, 161);
+	font-weight: 400;
+}
+
+.fa {
+	color: rgba(221, 160, 221);
+	font-size: 4px;
+	float: right;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1 id="home"></h1>
+		<script>
+			var country = [
+				"Japan",
+				"Canada",
+				"Nepal",
+				"Singapore",
+				"Germany",
+				"Belgium",
+			];
+			var html = "<select><option>--Select a Country--</option>";
+
+			for (i = 0; i < 5; i++) {
+				var html = html + "<option>" + country[i] + "</option>";
+			}
+			document.write(html);
+			var html = html + "</select>";
+
+			var student = {
+				name: "Ori",
+				Section: "J",
+				get getDetails() {
+					return "Name: " + this.name + " , " + "Section: " + this.Section;
+				},
+				set setDetails(para) {
+					//setter only has one parameter
+					this.name = para.nam;
+					this.Section = para.sec;
+				},
+			};
+			student.setDetails = { nam: "elizabeth", sec: "m25" };
+
+			document.getElementById("home").innerHTML = student.getDetails;
+		</script>
+	</body>
+</html>
