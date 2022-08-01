@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- <h2 class="title"><i> Calculator</i></h2> -->
+    <section class="calculator">
+      <form>
+        <input type="text" class="screen" placeholder="0" />
+      </form>
+      <div class="buttons">
+        <button type="button" class="btn btn-green" data-num="*">&#215;</button>
+        <button type="button" class="btn btn-green" data-num="/">/</button>
+        <button type="button" class="btn btn-green" data-num="+">+</button>
+        <button type="button" class="btn btn-green" data-num="-">-</button>
+        <!-- <button type="button" class="btn btn-green" data-num="%">%</button> -->
+
+        <button type="button" class="btn btn-white" data-num="9">9</button>
+        <button type="button" class="btn btn-white" data-num="8">8</button>
+        <button type="button" class="btn btn-white" data-num="7">7</button>
+        <button type="button" class="btn btn-white" data-num="6">6</button>
+        <button type="button" class="btn btn-white" data-num="5">5</button>
+        <button type="button" class="btn btn-white" data-num="4">4</button>
+        <button type="button" class="btn btn-white" data-num="3">3</button>
+        <button type="button" class="btn btn-white" data-num="2">2</button>
+        <button type="button" class="btn btn-white" data-num="1">1</button>
+        <button type="button" class="btn btn-white" data-num="0">0</button>
+        <button type="button" class="btn btn-white" data-num=".">.</button>
+
+        <button type="button" class="btn btn-erase" id="erase">
+          <!-- <i class="fa fa-times" aria-hidden="true" ></i> -->
+          <i class="fa-solid fa-delete-left" style="color: #1a1a1a"></i>
+        </button>
+
+        <button type="button" class="btn btn-clear">AC</button>
+        <button type="button" class="btn btn-equal" id="equal">=</button>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
