@@ -80,6 +80,12 @@ button {
   border-radius: 42px;
 }
 
+.btn:active {
+  box-shadow: inset 3px -2px 8px rgb(0 0 0 / 16%);
+  transform: translateZ(10px);
+  transition: all 0.1s;
+}
+
 /* .btn-green {
   color: #fff;
   background-color: #1aff1a;
