@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Uchen", serif;
 }
 body {
   min-height: 100vh;
@@ -13,6 +16,7 @@ body {
 }
 .wrapper {
   background-color: #fff;
+  cursor: grabbing;
   width: 300px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -24,6 +28,7 @@ body {
   border-bottom: 1px solid #bfbfbf;
   height: 50px;
   color: #ba8feb;
+
   padding: 10px 16px;
   display: flex;
   align-items: center;
@@ -32,12 +37,12 @@ body {
 
 .wrapper i {
   cursor: pointer;
-  font-size: 26px;
+  font-size: 20px;
   margin-right: 8px;
 }
 .wrapper.active header i {
-  font-size: 30px;
-  margin-left: 5px;
+  font-size: 20px;
+  margin-left: 8px;
 }
 
 .wrapper .input-part {
@@ -93,6 +98,7 @@ body {
   height: 1px;
   width: 100%;
   background-color: #bfbfbf;
+
   margin: 25px 0;
   display: flex;
   align-items: center;
@@ -109,7 +115,10 @@ body {
   color: #fff;
   background-color: #ba8feb;
 }
-
+.input-part button:hover {
+  cursor: pointer;
+  background-color: #a884d4;
+}
 .wrapper .weather-part {
   margin: 30px 0 0;
   display: none;
