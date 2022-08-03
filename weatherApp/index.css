@@ -35,9 +35,18 @@ body {
   font-size: 26px;
   margin-right: 8px;
 }
+.wrapper.active header i {
+  font-size: 30px;
+  margin-left: 5px;
+}
+
 .wrapper .input-part {
   /* display: none; */
   margin: 10px 14px;
+}
+
+.wrapper.active .input-part {
+  display: none;
 }
 .input-part .info-msg {
   display: none;
@@ -50,8 +59,9 @@ body {
 
 .info-msg.error {
   display: block;
-  background-color: #904fda;
-  border: 1px solid #ba8feb;
+  /* background-color: #904fda; */
+  background-color: #d83737;
+  border: 1px solid #da4f4f;
   color: rgb(241, 236, 236);
 }
 
@@ -102,15 +112,21 @@ body {
 
 .wrapper .weather-part {
   margin: 30px 0 0;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
+.wrapper.active .weather-part {
+  display: flex;
+}
+
 .weather-part img {
   max-width: 125px;
   margin-bottom: 12px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 
 .weather-part .temp {
