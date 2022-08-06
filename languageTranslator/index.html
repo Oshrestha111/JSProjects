@@ -21,7 +21,7 @@
           <textarea class="from-text" placeholder="Enter your text"></textarea>
           <textarea
             class="to-text"
-            placeholder="translating"
+            placeholder="translation"
             readonly
             disabled
           ></textarea>
@@ -29,27 +29,19 @@
         <ul class="controls">
           <li class="row from">
             <div class="icons">
-              <i class="fa-solid fa-volume-high"></i>
-              <i class="fa-solid fa-copy"></i>
+              <i id="from" class="fa-solid fa-volume-high"></i>
+              <i id="from" class="fa-solid fa-copy"></i>
             </div>
-            <select>
-              <option value="en-us">English</option>
-              <option value="ne-NP">Nepali</option>
-              <option value="hi-IN">Hindi</option>
-            </select>
+            <select></select>
           </li>
           <li class="exchange">
             <i class="fa-solid fa-arrow-right-arrow-left"></i>
           </li>
           <li class="row to">
-            <select>
-              <option value="en-us">English</option>
-              <option value="ne-NP">Nepali</option>
-              <option value="hi-IN">Hindi</option>
-            </select>
+            <select></select>
             <div class="icons">
-              <i class="fa-solid fa-volume-high"></i>
-              <i class="fa-solid fa-copy"></i>
+              <i id="to" class="fa-solid fa-volume-high"></i>
+              <i id="to" class="fa-solid fa-copy"></i>
             </div>
           </li>
         </ul>
@@ -57,6 +49,7 @@
       <button>Translate</button>
     </div>
 
-    <script src="app.js"></script>
+    <script src="js/countries.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
