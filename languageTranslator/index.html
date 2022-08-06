@@ -15,40 +15,80 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="wrapper">
-        <div class="text-input">
-          <textarea class="from-text" placeholder="Enter your text"></textarea>
-          <textarea
-            class="to-text"
-            placeholder="translation"
-            readonly
-            disabled
-          ></textarea>
-        </div>
-        <ul class="controls">
-          <li class="row from">
-            <div class="icons">
-              <i id="from" class="fa-solid fa-volume-high"></i>
-              <i id="from" class="fa-solid fa-copy"></i>
-            </div>
-            <select></select>
-          </li>
-          <li class="exchange">
-            <i class="fa-solid fa-arrow-right-arrow-left"></i>
-          </li>
-          <li class="row to">
-            <select></select>
-            <div class="icons">
-              <i id="to" class="fa-solid fa-volume-high"></i>
-              <i id="to" class="fa-solid fa-copy"></i>
-            </div>
-          </li>
-        </ul>
+    <div class="containerAll">
+      <div class="bubbles">
+        <span style="--i: 20"></span>
+        <span style="--i: 22"></span>
+        <span style="--i: 25"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 21"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 19"></span>
+        <span style="--i: 21"></span>
+        <span style="--i: 8"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 21"></span>
+        <span style="--i: 25"></span>
+        <span style="--i: 11"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 24"></span>
+        <span style="--i: 14"></span>
+        <span style="--i: 23"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 16"></span>
+        <span style="--i: 19"></span>
+        <span style="--i: 20"></span>
+        <span style="--i: 22"></span>
+        <span style="--i: 25"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 21"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 19"></span>
+        <span style="--i: 21"></span>
+        <span style="--i: 8"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 21"></span>
+        <span style="--i: 25"></span>
       </div>
-      <button>Translate</button>
+      <div class="container">
+        <div class="wrapper">
+          <div class="text-input">
+            <textarea
+              class="from-text"
+              placeholder="Enter your text"
+            ></textarea>
+            <textarea
+              class="to-text"
+              placeholder="translation"
+              readonly
+              disabled
+            ></textarea>
+          </div>
+          <ul class="controls">
+            <li class="row from">
+              <div class="icons">
+                <i id="from" class="fa-solid fa-volume-high"></i>
+                <i id="from" class="fa-solid fa-copy"></i>
+              </div>
+              <select></select>
+            </li>
+            <li class="exchange">
+              <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            </li>
+            <li class="row to">
+              <select></select>
+              <div class="icons">
+                <i id="to" class="fa-solid fa-volume-high"></i>
+                <i id="to" class="fa-solid fa-copy"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button>Translate</button>
+      </div>
     </div>
-
     <script src="js/countries.js"></script>
     <script src="js/app.js"></script>
   </body>
