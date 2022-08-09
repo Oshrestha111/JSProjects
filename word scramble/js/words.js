@@ -1,5 +1,9 @@
 let words = [
   {
+    word: "oriya",
+    hint: "someone who loves you dearly",
+  },
+  {
     word: "addition",
     hint: "The process of adding numbers",
   },
