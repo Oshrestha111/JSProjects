@@ -97,8 +97,13 @@ body {
 .buttons .refresh-word {
   background: #353941;
 }
-
+.buttons .refresh-word:hover {
+  background: #2e3138;
+}
 .buttons .check-word {
   /* background: #5372f0; */
   background-color: #90b8f8;
+}
+.buttons .check-word:hover {
+  background-color: #8bb0ec;
 }
