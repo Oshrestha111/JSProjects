@@ -1,26 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #ffffff;
 }
 body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5372b0;
+  background-color: #26282b;
+  /* background-color: #0e9e2c; */
+  font-family: "Uchen", serif;
 }
 
 .container {
   width: 450px;
-  background: #fff;
+  /* background: #fff; */
+  /* background-color: #1bc23e; */
+  background-color: #5f85db;
   border-radius: 5px;
+  box-shadow: rgb(255 255 255 / 10%) 7px 9px 14px;
 }
 .container h2 {
-  font-size: 25px;
-  font-weight: 500;
+  font-family: "Mouse Memoirs", sans-serif;
+  /* font-family: "Lora", serif; */
+  text-align: center;
+  font-size: 45px;
+  font-weight: 400;
   padding: 10px 25px;
-  border-bottom: 1px solid #fbfb;
+  border-bottom: 1px solid #ccc;
 }
 .container .content {
   margin: 25px 20px 35px;
@@ -56,6 +70,9 @@ body {
   padding: 0 16px;
   border-radius: 5px;
   border: 1px solid #aaa;
+  font-family: "Uchen", serif;
+  background-color: #ffffff;
+  color: #000;
 }
 
 .content .buttons {
@@ -67,18 +84,21 @@ body {
 .buttons button {
   border: none;
   outline: none;
-  color: #fff;
+  color: #f7f7f7;
   cursor: pointer;
-  font-size: 17px;
-  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 0;
   border-radius: 5px;
   width: calc(100% / 2 - 8px);
+  font-family: "Uchen", serif;
 }
 
 .buttons .refresh-word {
-  background: #6c757d;
+  background: #353941;
 }
 
 .buttons .check-word {
-  background: #5372f0;
+  /* background: #5372f0; */
+  background-color: #90b8f8;
 }
