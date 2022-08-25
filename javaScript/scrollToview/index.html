@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>scroll to view</title>
+  </head>
+  <body>
+    <h2>scroll top view</h2>
+
+    <button class="btn">scroll to bottom</button>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+      consequatur vero dignissimos ipsam aut rerum cupiditate id provident esse,
+      possimus magni, minima dolor voluptatem! Reprehenderit aliquam repellendus
+      non ex consequatur perferendis, consectetur voluptatum omnis quae cum
+      expedita accusamus alias necessitatibus, nesciunt eius adipisci provident.
+      At beatae possimus quam labore unde vel tempora assumenda molestiae.
+    </p>
+    <br />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+      consequatur vero dignissimos ipsam aut rerum cupiditate id provident esse,
+      possimus magni, minima dolor voluptatem! Reprehenderit aliquam repellendus
+      non ex consequatur perferendis, consectetur voluptatum omnis quae cum
+      expedita accusamus alias necessitatibus, nesciunt eius adipisci provident.
+      At beatae possimus quam labore unde vel tempora assumenda molestiae.
+    </p>
+    <br />
+    <img
+      src="https://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg"
+      alt="bridge"
+    />
+
+    <div class="container">
+      <h3>this is container vako wala</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        consequatur vero dignissimos ipsam aut rerum cupiditate id provident
+        esse, possimus magni, minima dolor voluptatem! Reprehenderit aliquam
+        repellendus non ex consequatur perferendis, consectetur voluptatum omnis
+        quae cum expedita accusamus alias necessitatibus, nesciunt eius adipisci
+        provident. At beatae possimus quam labore unde vel tempora assumenda
+        molestiae.
+      </p>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        consequatur vero dignissimos ipsam aut rerum cupiditate id provident
+        esse, possimus magni, minima dolor voluptatem! Reprehenderit aliquam
+        repellendus non ex consequatur perferendis, consectetur voluptatum omnis
+        quae cum expedita accusamus alias necessitatibus, nesciunt eius adipisci
+        provident. At beatae possimus quam labore unde vel tempora assumenda
+        molestiae.
+      </p>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        consequatur vero dignissimos ipsam aut rerum cupiditate id provident
+        esse, possimus magni, minima dolor voluptatem! Reprehenderit aliquam
+        repellendus non ex consequatur perferendis, consectetur voluptatum omnis
+        quae cum expedita accusamus alias necessitatibus, nesciunt eius adipisci
+        provident. At beatae possimus quam labore unde vel tempora assumenda
+        molestiae.
+      </p>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        consequatur vero dignissimos ipsam aut rerum cupiditate id provident
+        esse, possimus magni, minima dolor voluptatem! Reprehenderit aliquam
+        repellendus non ex consequatur perferendis, consectetur voluptatum omnis
+        quae cum expedita accusamus alias necessitatibus, nesciunt eius adipisci
+        provident. At beatae possimus quam labore unde vel tempora assumenda
+        molestiae.
+      </p>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        consequatur vero dignissimos ipsam aut rerum cupiditate id provident
+        esse, possimus magni, minima dolor voluptatem! Reprehenderit aliquam
+        repellendus non ex consequatur perferendis, consectetur voluptatum omnis
+        quae cum expedita accusamus alias necessitatibus, nesciunt eius adipisci
+        provident. At beatae possimus quam labore unde vel tempora assumenda
+        molestiae.
+      </p>
+
+      <img
+        src="https://lokeshdhakar.com/media/posts/roadtrip-2004/trip01.jpg"
+        alt="bridge"
+      />
+
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        consequatur vero dignissimos ipsam aut rerum cupiditate id provident
+        esse, possimus magni, minima dolor voluptatem! Reprehenderit aliquam
+        repellendus non ex consequatur perferendis, consectetur voluptatum omnis
+        quae cum expedita accusamus alias necessitatibus, nesciunt eius adipisci
+        provident. At beatae possimus quam labore unde vel tempora assumenda
+        molestiae.
+      </p>
+    </div>
+
+    <script>
+      const btn = document.querySelector(".btn"),
+        elem = document.querySelector(".container");
+
+      //The object contains two properties:
+
+      // 1- The block property: the position of the final scroll after scrolling into view(start, center, end, nearest).
+
+      // 2- The behavior: the scroll behavior of the transition(smooth, auto).
+
+      btn.addEventListener("click", () => {
+        elem.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      });
+    </script>
+  </body>
+</html>
