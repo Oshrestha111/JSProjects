@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #d7f8e1;
-}
+} */
 
 .wrapper {
   width: 420px;

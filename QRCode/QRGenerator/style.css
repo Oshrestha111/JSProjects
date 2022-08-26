@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #2e8b57; */
+  /* background-color: #2e8b57; 
   background-color: #4166f5;
-}
+} */
 
 .wrapper {
   height: 200px;
