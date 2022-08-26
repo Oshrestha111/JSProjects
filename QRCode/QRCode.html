@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Generator & Scanner</title>
+    <link rel="stylesheet" href="./mainstyle.css" />
+    <link rel="stylesheet" href="./QRGenerator/style.css" />
+    <link rel="stylesheet" href="./QRScanner/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <!-- <script src="./script.js"></script> -->
+  </head>
+  <body>
+    <h1>
+
+      <marquee attribute_name = "attribute_value"....more attributes>
+       !!! Generate and <span class="half"> Scan QR Code !!!
+        </marquee>
+      </h1>
+    <!-- <h1>Generate and <span class="half"> Scan QR Code</span></h1> -->
+    <div class="left">
+      <div class="wrapper1">
+        <header>
+          <h2>QR Code Generator</h2>
+          <p>Paste a url or enter text to create QR Code</p>
+        </header>
+        <div class="form">
+          <input type="text" placeholder="enter url or text" />
+          <button>Generate QR Code</button>
+        </div>
+        <div class="qr-code">
+          <img src="" alt="qr-code" />
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="wrapper2">
+        <form action="#">
+          <input type="file" hidden />
+          <img src="" alt="qr-code" />
+          <div class="content">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <p>Upload QR Code to Scan</p>
+          </div>
+        </form>
+        <div class="details">
+          <textarea disabled></textarea>
+          <div class="buttons">
+            <button class="close">Close</button>
+            <button class="copy">Copy Text</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./QRScript.js"></script>
+    <!-- <script src="./QRGenerator/script.js"></script> -->
+  </body>
+</html>
