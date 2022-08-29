@@ -1,10 +1,13 @@
 /* Import Google Font - Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Eczar", serif;
 }
 body {
   display: flex;
@@ -12,6 +15,14 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: #6563ff;
+}
+marquee {
+  position: absolute;
+  top: 10px;
+  left: 27%;
+  font-size: 30px;
+  /* font-style: italic; */
+  color: #fff;
 }
 .wrapper {
   padding: 25px;
@@ -115,7 +126,8 @@ body {
 }
 .details button {
   cursor: pointer;
-  font-size: 14px;
+  font-family: "Slabo 27px", serif;
+  font-size: 18px;
   color: #6563ff;
   border-radius: 4px;
   padding: 4px 11px;
